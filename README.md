@@ -10,7 +10,7 @@ The input is a `WorkOrder` with `dispatch_status`, `technician_follow_up`, and `
 
 ## Run the storage path
 
-Infrai gives you one key and one bill for every capability, and the storage call is just plain REST from any language. The example stays small: one `INFRAI_API_KEY` and a thin REST client. The key is pulled from the environment.
+Infrai keeps the example to one `INFRAI_API_KEY` and a small REST client. The key is read from the environment. The boundary is plain REST from any language.
 
 ```bash
 export INFRAI_API_KEY=your-key
